@@ -1,3 +1,5 @@
+import lib.slack
+
 def call() {
     timestamps {
 	println 'Inside Call'
@@ -15,6 +17,7 @@ def call(agentNodeName) {
 }
 def test(){
   println "THIS IS A TEST"
+  println(System.getProperty("java.class.path"));
 }
 
 def whatever(){
