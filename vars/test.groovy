@@ -1,5 +1,9 @@
-class Library {
-    boolean someLibraryMethod() {
-        true
+class Person {                       
+
+    String name                      
+    Integer age
+
+    def increaseAge(Integer years) { 
+        this.age += years
     }
 }
