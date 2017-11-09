@@ -16,7 +16,7 @@ def call(agentNodeName) {
     }
 }
 def test(){
-  println "THIS IS A TEST"
+  sendSlack "THIS IS A TES T XXYYXX"
   println(System.getProperty("java.class.path"));
 }
 
