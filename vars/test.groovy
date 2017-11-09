@@ -16,9 +16,9 @@ def call(agentNodeName) {
     }
 }
 def test(){
-  def slackUtil = new slack
-  slackUtil.sendSlack("THIS IS A T_E_S_T XXYYXX");
-  println(System.getProperty("java.class.path"));
+  def slackUtil = new slack()
+  slackUtil.sendSlack("THIS IS A T_E_S_T XXYYXX")
+  println(System.getProperty("java.class.path"))
 }
 
 def whatever(){
