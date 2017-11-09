@@ -1,9 +1,5 @@
-class Person {                       
-
-    String name                      
-    Integer age
-
-    def increaseAge(Integer years) { 
-        this.age += years
-    }
+def test(){
+  println "THIS IS A TEST"
 }
+
+println "TEST LOADED"
