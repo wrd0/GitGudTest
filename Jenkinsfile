@@ -1,5 +1,6 @@
 echo "testing"
 
+        node(agentNodeName) {
   stage('Clone repository') {
 
                 try {
@@ -17,3 +18,6 @@ echo "testing"
                 }
 
    }
+
+        } // End Node
+
