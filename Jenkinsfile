@@ -8,7 +8,7 @@ node(){
                        		sh 'cd ${BRANCH_NAME}/bvt_test_container && git pull'
                     	} else {
                         	//Make directory corresponding to branch name
-                        	sh 'mkdir ${BRANCH_NAME} && cd ${BRANCH_NAME} && git clone --recursive git@github.ibm.com:IBM-Blockchain/bvt_test_container.git -b ${BRANCH_NAME}'
+                        	sh 'mkdir ${BRANCH_NAME} && cd ${BRANCH_NAME} && git clone https://github.com/wrd0/GitGudTest'
                     	}
                 }
                 catch (err) {
@@ -17,4 +17,3 @@ node(){
                 }
    	}
 }//End Node
-
